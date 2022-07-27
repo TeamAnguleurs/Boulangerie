@@ -72,3 +72,15 @@
     color: black;
     text-decoration: none;
 }
+
+@media (max-width: 1200px) {
+
+    .footer-grid {
+        grid-template-columns: 3;
+    }
+
+    .reseaux {
+        grid-column: 1 / 4;
+        grid-row: 2;
+    }
+}
