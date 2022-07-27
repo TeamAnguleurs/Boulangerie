@@ -1,0 +1,83 @@
+<html>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg" id="nav-bar">
+        <div class="container-fluid">
+          <a class="navbar-brand" routerLink=""><img
+              src="./assets/img/compte-panda-tea.svg" alt="logo site"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" id="menu-produits" routerLink="produits">Nos produits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="menu-packs" routerLink="packs">Nos packs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="menu-propos" routerLink="apropos">A propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="menu-forums" routerLink="forum">Forums</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="menu-contact" routerLink="contact">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav text-center">
+              <li id="nav-ico">
+                <a class="nav-link sup-padding" href="./espace_client.html"><img class="img-compte"
+                    src="./assets/img/compte.png" alt="espace client"></a>
+              </li>
+              <li id="nav-ico">
+                <a class="nav-link sup-padding" href="#"><img class="img-panier"
+                    src="./assets/img/panier.png" alt="panier"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+<main>
+  <router-outlet></router-outlet>
+</main>
+    <footer class="footer-grid">
+      <article class="specialites">
+        <p class="F1">NOS SPECIALITÉS</p>
+        <p class="F2">LOCALES</p>
+        <p class="F2">NATIONALES</p>
+        <p class="F2">LE MONDE</p>
+      </article>
+      <article class="aide">
+        <p class="F1">AIDE</p>
+        <p class="F2">FAQ</p>
+        <p class="F2">MENTIONS LÉGALES</p>
+        <a class="F2" routerLink="contact">
+          <p>CONTACT</p>
+        </a>
+      </article>
+      <article class="panda-tea">
+        <p class="F1">PANDA TEA</p>
+        <a class="F2" routerLink="packs">
+          <p>NOS PACKS</p>
+        </a>
+        <p class="F2">PRESSE</p>
+        <a class="F2" routerLink="propos">
+          <p>A PROPOS</p>
+        </a>
+        <a class="F2" routerLink="forum">
+          <p>FORUMS</p>
+        </a>
+      </article>
+      <article class="reseaux">
+        <p class="F1">SUIVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</p>
+        <img src="./assets/img/icon-instagram.svg" alt="instagram">
+        <img src="./assets/img/icon-facebook.svg" alt="facebook">
+        <img src="./assets/img/icon-pinterest.svg" alt="pinterest">
+      </article>
+    </footer>    
+  </body>
+</html>
