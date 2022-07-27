@@ -1,1 +1,31 @@
-<p>packs works!</p>
+<main>
+  <!----------------------------------------------------GRID------------------------------------------------------->
+
+  <section class="banniere">
+    <article class="image">
+      <img
+        class="img-banniere"
+        src="../../assets/img/banniere_contact.PNG"
+        alt="bannière"
+      />
+    </article>
+    <article class="text">
+      <h1 class="T0">Nos packs</h1>
+      <p class="T4">Livraison gratuite à partir de 49€</p>
+    </article>
+  </section>
+
+  <!----------------------------------------------------GRID------------------------------------------------------->
+
+  <section class="packs">
+    <article class="decouverte" *ngFor="let cs of decouverte">
+      <img class="img-100" src="{{ cs.image }}" alt="decouverte" />
+      <p class="T1">{{ cs.name }}</p>
+      <p class="T3">{{ cs.description }}</p>
+      <div>
+        <p class="T2">{{ cs.prix }}</p>
+        <input class="bouton" type="button" value="AJOUTER AU PANIER" />
+      </div>
+    </article>
+  </section>
+</main>

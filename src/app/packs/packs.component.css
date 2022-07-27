@@ -1,0 +1,136 @@
+.T0 {
+  text-align: center;
+  font-family: "Intel", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px black;
+  margin-top: 2vh;
+}
+
+.T1 {
+  text-align: center;
+  font-family: "Intel", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+
+.T2 {
+  text-align: center;
+  font-family: "Intel", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.T3 {
+  text-align: center;
+  font-family: "Intel", sans-serif;
+  font-size: 14px;
+}
+
+.T4 {
+  text-align: center;
+  font-family: "Intel", sans-serif;
+  font-size: 15px;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px black;
+}
+
+.F1 {
+  font-family: "Intel", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.F2 {
+  font-family: "Intel", sans-serif;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+/*------------------------------------------------*/
+
+.banniere {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+  margin: 6vh 0 5vh 0;
+}
+
+.image {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.text {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  margin: auto;
+  background-color: #cfb79ba9;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.img-banniere {
+  width: 100%;
+  max-height: 50vh;
+}
+
+/*------------------------------------------------*/
+
+.img-100 {
+  width: 100%;
+}
+
+.bouton {
+  background-color: #cfb79b;
+  font-family: "Intel", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  width: 90%;
+  height: 40px;
+  margin-bottom: 5%;
+}
+
+/*------------------------------------------------*/
+
+.packs {
+  width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 16;
+}
+
+.decouverte {
+  display: grid;
+  background-color: #f3f3f3;
+  margin: 4%;
+  text-align: center;
+}
+
+/*------------------------------------------------*/
+@media (max-width: 1100px) {
+
+  .packs {
+    width: 800px;
+    margin: auto;
+      grid-template-columns: 33% 33% 33% ;
+      grid-template-rows: 4;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .packs {
+    width: 400px;
+    margin: auto;
+      grid-template-columns: 50% 50% ;
+      grid-template-rows: 4;
+  }
+}
