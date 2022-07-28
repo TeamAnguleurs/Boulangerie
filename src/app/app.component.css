@@ -31,12 +31,14 @@
     padding: 0;
 }
 
-/* /----------footer----------/ */
+/* /FOOTER/ */
+
 .footer-grid {
+    
     display: grid;
     grid-template-columns: 4;
     grid-template-rows: 1;
-    padding: 2%;
+    padding: 4%;
 }
 
 .specialites {
@@ -71,16 +73,4 @@
     font-size: 15px;
     color: black;
     text-decoration: none;
-}
-
-@media (max-width: 1200px) {
-
-    .footer-grid {
-        grid-template-columns: 3;
-    }
-
-    .reseaux {
-        grid-column: 1 / 4;
-        grid-row: 2;
-    }
 }
