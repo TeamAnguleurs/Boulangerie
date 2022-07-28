@@ -100,117 +100,38 @@
 
 /*------------------------------------------------*/
 
-/* .produits {
-    margin: 0% 1% 10vh 1%;
+.produits {
+    width: 1200px;
+    margin: auto;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 16;
-} */
+}
 
 .morning {
     display: grid;
     background-color: #F3F3F3;
     margin: 4%;
-    grid-column: 1;
-    grid-row: 1;
     text-align: center;
 }
+@media (max-width: 1100px) {
 
-.night {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 2;
-    grid-row: 1;
-    text-align: center;
-}
+    .produits {
+      width: 800px;
+      margin: auto;
+        grid-template-columns: 33% 33% 33% ;
+        grid-template-rows: 4;
+    }
+  }
+  
+  @media (max-width: 800px) {
+  
+    .produits {
+      width: 400px;
+      margin: auto;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 4;
+    }
+  }
 
-.sleep {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 1;
-    grid-row: 2;
-    text-align: center;
-}
 
-.fresh {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 2;
-    grid-row: 2;
-    text-align: center;
-}
-
-.libertea {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 1;
-    grid-row: 3;
-    text-align: center;
-}
-
-.habibtea {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 2;
-    grid-row: 3;
-    text-align: center;
-}
-
-.green {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 1;
-    grid-row: 4;
-    text-align: center;
-}
-
-.choco {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 2;
-    grid-row: 4;
-    text-align: center;
-}
-
-.bamboo {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 1;
-    grid-row: 5;
-    text-align: center;
-}
-
-.infuser {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 2;
-    grid-row: 5;
-    text-align: center;
-}
-
-.bottle-verte {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 1;
-    grid-row: 6;
-    text-align: center;
-}
-
-.bottle-violet {
-    display: grid;
-    background-color: #F3F3F3;
-    margin: 4%;
-    grid-column: 2;
-    grid-row: 6;
-    text-align: center;
-}
