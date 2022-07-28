@@ -12,19 +12,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" id="menu-produits" routerLink="produits">Nos produits</a>
+                <a class="nav-link" routerLink="produits" id="menu-produits">Nos produits</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menu-packs" routerLink="packs">Nos packs</a>
+                <a class="nav-link" routerLink="packs" id="menu-packs">Nos packs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menu-propos" routerLink="apropos">A propos</a>
+                <a class="nav-link" routerLink="apropos" id="menu-propos">A propos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menu-forums" routerLink="forum">Forums</a>
+                <a class="nav-link" routerLink="forums" id="menu-forums">Forums</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="menu-contact" routerLink="contact">Contact</a>
+                <a class="nav-link" routerLink="contact" id="menu-contact">Contact</a>
               </li>
             </ul>
             <ul class="navbar-nav text-center">
@@ -41,43 +41,44 @@
         </div>
       </nav>
     </header>
-<main>
-  <router-outlet></router-outlet>
-</main>
-    <footer class="footer-grid">
-      <article class="specialites">
-        <p class="F1">NOS SPECIALITÉS</p>
-        <p class="F2">LOCALES</p>
-        <p class="F2">NATIONALES</p>
-        <p class="F2">LE MONDE</p>
-      </article>
-      <article class="aide">
-        <p class="F1">AIDE</p>
-        <p class="F2">FAQ</p>
-        <p class="F2">MENTIONS LÉGALES</p>
-        <a class="F2" routerLink="contact">
-          <p>CONTACT</p>
-        </a>
-      </article>
-      <article class="panda-tea">
-        <p class="F1">PANDA TEA</p>
-        <a class="F2" routerLink="packs">
-          <p>NOS PACKS</p>
-        </a>
-        <p class="F2">PRESSE</p>
-        <a class="F2" routerLink="propos">
-          <p>A PROPOS</p>
-        </a>
-        <a class="F2" routerLink="forum">
-          <p>FORUMS</p>
-        </a>
-      </article>
-      <article class="reseaux">
-        <p class="F1">SUIVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</p>
-        <img src="./assets/img/icon-instagram.svg" alt="instagram">
-        <img src="./assets/img/icon-facebook.svg" alt="facebook">
-        <img src="./assets/img/icon-pinterest.svg" alt="pinterest">
-      </article>
-    </footer>    
+    <router-outlet></router-outlet>
+    <!--footer-->
+<footer class="footer-grid">
+  <article class="specialites">
+    <p class="F1">NOS SPECIALITÉS</p>
+    <p class="F2">LOCALES</p>
+    <p class="F2">NATIONALES</p>
+    <p class="F2">LE MONDE</p>
+  </article>
+  <article class="aide">
+    <p class="F1">AIDE</p>
+    <p class="F2">FAQ</p>
+    <p class="F2">MENTIONS LÉGALES</p>
+    <a class="F2" routerLink="contact">
+      <p>CONTACT</p>
+    </a>
+  </article>
+  <article class="panda-tea">
+    <p class="F1">PANDA TEA</p>
+    <a class="F2" routerLink="packs">
+      <p>NOS PACKS</p>
+    </a>
+    <p class="F2">PRESSE</p>
+    <a class="F2" routerLink="propos">
+      <p>A PROPOS</p>
+    </a>
+    <a class="F2" routerLink="forum">
+      <p>FORUMS</p>
+    </a>
+  </article>
+  <article class="reseaux">
+    <p class="F1">SUIVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</p>
+    <img src="./assets/img/icon-instagram.svg" alt="instagram">
+    <img src="./assets/img/icon-facebook.svg" alt="facebook">
+    <img src="./assets/img/icon-pinterest.svg" alt="pinterest">
+  </article>
+</footer>
+
   </body>
 </html>
+
