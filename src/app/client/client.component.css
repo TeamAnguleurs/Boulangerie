@@ -1,0 +1,56 @@
+.T1 {
+    font-family: bold "Intel", sans-serif;
+    font-size: 20px;
+}
+
+.T2 {
+    font-family: "Intel", sans-serif;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.T3 {
+    font-family: "Intel", sans-serif;
+    font-size: 10px;
+}
+
+/*------------------------------------------------*/
+
+.client {
+    margin: 10vh 10% 5% 10%;
+}
+
+.form-control {
+    border: 2px solid #CFB79B;
+}
+
+#bouton {
+    background-color: #CFB79B;
+    font-family: "Intel", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    width: 80%;
+    height: 40px;
+}
+
+.marge {
+    margin-top: 5vh;
+}
+
+/*------------------------------------------------*/
+
+@media (min-width: 768px) {
+    .marge {
+        margin: 0% 0% 0% 15%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .client {
+        margin-top: 20vh;
+    }
+}
